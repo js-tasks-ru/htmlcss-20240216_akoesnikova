@@ -1,0 +1,14 @@
+.footer {
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    text-align: center;
+}
+
+.footer__title {
+    font-weight: 500;
+}
+
+.footer__text {
+    font-size: 16px;
+    font-weight: 400;
+}
