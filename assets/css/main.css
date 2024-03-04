@@ -1,8 +1,13 @@
 @import '../fonts/fonts.css';
 @import "./normalize.css";
 @import "../../components/header/header.css";
-@import "../../components/main/main.css";
+@import "../../components/page/page.css";
 @import "../../components/footer/footer.css";
+@import "../../components/preview/preview.css";
+@import "../../components/container/container.css";
+@import "../../components/card/card.css";
+
+
 
 :root {
     --white: #ffffff;
@@ -27,7 +32,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    max-width: 1440px;
-    padding: 24px 165px;
+html, body {
+    height: 100vh;
 }
+

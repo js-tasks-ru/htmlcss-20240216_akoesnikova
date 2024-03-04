@@ -1,11 +1,13 @@
 .footer {
-    font-family: "Inter", sans-serif;
-    color: var(--black);
-    text-align: center;
+   background-color: #fff; 
+   padding: 100px;
 }
 
 .footer__title {
     font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    text-align: center;
 }
 
 .footer__text {

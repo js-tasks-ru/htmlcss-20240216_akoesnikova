@@ -1,0 +1,23 @@
+.card {
+    width: 350px;
+    padding: 40px;
+    box-shadow: 0 2px 4px 0 rgba(33, 36, 41, 0.05);
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.card__title {
+    margin: 0;
+    color: var(--black);
+}
+
+.card__image {
+    height: 100px;
+    background-color: var(--blue);
+}
+
+.card__button {
+    margin-top: 10px;
+}
