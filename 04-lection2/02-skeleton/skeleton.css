@@ -1,0 +1,41 @@
+.skeleton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 579px;
+    height: 192px;
+    padding: 32px 40px 32px 24px;
+}
+
+.skeleton__row {
+    display: flex;
+}
+
+.skeleton__column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    row-gap: 8px;
+}
+
+.skeleton__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.skeleton__circle {
+    margin-right: 16px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+}
+
+.skeleton__rectangle {
+    height: 20px;
+    background-color: var(--grey-2);
+}
