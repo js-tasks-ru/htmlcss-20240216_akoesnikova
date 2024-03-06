@@ -1,7 +1,6 @@
 .tooltip {
     display: inline-block;
     position: relative;
-    margin: 150px;
 }
 
 .tooltip__bubble {
@@ -18,9 +17,9 @@
     font-weight: 400;
     width: 129px;
     height: 45px;
-    top: calc(100% - 8px);
+    bottom: calc(100% + 8px);
     left: 50%;
-    transform: translate(-50%, -150%);
+    transform: translateX(-50%);
 }
 
 .tooltip__bubble::before {
