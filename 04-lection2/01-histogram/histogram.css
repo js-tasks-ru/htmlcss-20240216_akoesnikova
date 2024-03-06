@@ -1,0 +1,48 @@
+.histogram {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--grey-3);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    height: 180px;
+}
+
+.histogram__header {
+    display: flex;
+}
+.histogram__info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.histogram__text {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--grey-4);
+}
+.histogram__num {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.histogram__link a {
+    text-decoration: none;
+}
+
+.histogram__container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px;
+    transform: rotateX(180deg);
+}
+
+.column {
+    width: 8px;
+    background-color: var(--blue);
+}
