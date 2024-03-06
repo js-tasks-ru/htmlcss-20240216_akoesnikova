@@ -4,9 +4,6 @@
 }
 
 .preview__cards {
-    margin: -15px;
-}
-
-.preview__card {
-    margin: 15px;
+    display: flex;
+    gap: 15px;
 }
