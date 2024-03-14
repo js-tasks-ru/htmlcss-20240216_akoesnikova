@@ -38,13 +38,12 @@
 
 .histogram__container {
     display: flex;
-    justify-content: space-between;
     gap: 1px;
     align-items: flex-end;
     height: 50px;
 }
 
-.column {
-    width: 9px;
+.histogram__column {
+    flex-basis: 9px;
     background-color: var(--blue);
 }
