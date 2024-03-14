@@ -33,14 +33,14 @@
     background-color: var(--grey-2);
 }
 
-.skeleton__rectangle_width1 {
-    width: 13%;
+.skeleton__rectangle_small {
+    width: 30%;
 }
 
-.skeleton__rectangle_width2 {
-    width: 20%;
+.skeleton__rectangle_medium {
+    width: 50%;
 }
 
-.skeleton__rectangle_width3 {
-    width: 38%;
+.skeleton__rectangle_large {
+    width: 90%;
 }
