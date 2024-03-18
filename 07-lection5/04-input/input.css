@@ -1,0 +1,49 @@
+.inputText__text {
+    width: 350px;
+    height: 56px;
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    padding-left: 24px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+.inputText__text::placeholder {
+    color: var(--grey-2);
+}
+
+.inputText__text:focus {
+    border: 0;
+    outline-color: #4263EB;
+}
+
+.inputText__text_success::placeholder {
+    color: var(--grey-4);
+}
+
+.inputText__wrap {
+    position: relative;
+    width: 350px;
+}
+
+.inputText__icon {
+    position: absolute;
+    left: 334px;
+    top: 16px;
+}
+
+.inputText__text_invalid {
+    border-color: #F03D3E;
+}
+
+.inputText__text_invalid:focus {
+    border: 0;
+    outline-color: #F03D3E;
+}
+
+.inputText__text_invalid::placeholder {
+    color: var(--grey-4);
+}
