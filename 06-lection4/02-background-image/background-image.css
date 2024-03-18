@@ -1,0 +1,8 @@
+.background__img {
+    width: 100%;
+    height: 100%;
+    background-image: url("./public/forest_2560.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
