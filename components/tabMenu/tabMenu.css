@@ -1,0 +1,35 @@
+.tabs {
+    display: flex;
+    position: relative;
+    gap: 40px;
+}
+
+.tabs__checkbox {
+    position: absolute;
+    left: -100vw;
+    opacity: 0;
+}
+
+.splitLine {
+    border-top: var(--grey-2);
+    margin: 0;
+}
+.tabs__state {
+    font-size: 16px;
+    color: var(--grey-3);
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 24px;
+    border: 0;
+    cursor: pointer;
+}
+.tabs__label {
+    border-bottom: 5px solid transparent;
+    padding-bottom: 8px;
+}
+.tabs__checkbox:checked ~.tabs__state
+.tabs__label {
+    color: #212429;
+    border-bottom: 5px solid #212429;
+    transition: all 200ms ease-in;
+}
