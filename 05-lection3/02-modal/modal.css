@@ -1,23 +1,18 @@
 .modal {
-    display: flex;
-    gap: 156px;
-}
-
-.modal .button {
-    align-self: center;
-}
-
-.modal__container {
-    width: 508px;
-    background-color: rgba(196, 196, 196, 0.5);;
-    padding: 40px 40px 47px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px 40px 33px 40px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .modal__block {
-    position: relative;
-    border-radius: 4px;
-    background-color: #fff;
-    padding: 30px 40px 33px 40px;
+    position: absolute;
+    border-radius: 16px;
+    background-color: rgba(196, 196, 196, 0.5);
+    padding: 40px 40px 47px;
 }
 
 .modal__title {
@@ -34,7 +29,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: var(--grey-4)
+    color: var(--grey-4);
 }
 
 .modal__icon {
