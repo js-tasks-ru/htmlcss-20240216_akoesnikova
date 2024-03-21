@@ -17,6 +17,9 @@
 }
 
 .checkbox__control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 52px;
     height: 28px;
     border: 1px solid var(--grey-2);
@@ -51,8 +54,7 @@
 .checkbox__toggle:checked ~ .checkbox__state
 .checkbox__control .checkbox__round {
     background-color: #fff;
-    left: 26px;
-    bottom: 2px;
+    transform: translateX(100%);
 }
 
 .checkbox__toggle:disabled ~ .checkbox__state
