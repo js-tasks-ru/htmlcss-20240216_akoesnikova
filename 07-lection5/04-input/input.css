@@ -7,6 +7,7 @@
     border: 1px solid var(--grey-2);
     border-radius: 8px;
     padding-left: 24px;
+    padding-right: 51px;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
@@ -32,6 +33,7 @@
 }
 
 .inputText__icon {
+    visibility: hidden;
     width: 24px;
     height: 24px;
     position: absolute;
@@ -40,6 +42,7 @@
 }
 
 .inputText_success .inputText__icon {
+    visibility: visible;
     stroke: #374FC7;
 }
 
@@ -52,6 +55,7 @@
 }
 
 .inputText_invalid .inputText__icon {
+    visibility: visible;
     stroke: #F03D3E;
 }
 
