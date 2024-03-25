@@ -6,6 +6,24 @@
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <div class="inputText">
+            <input class="inputText__text" type="text" placeholder="Placeholder">
+        </div>
+        <div class="inputText inputText_success">
+            <div class="inputText__wrap">
+                <input class="inputText__text" type="text" placeholder="Success">
+                <svg class="inputText__icon">
+                    <use href="../../assets/images/sprite.svg#success"></use>
+                </svg>
+            </div>                  
+        </div>
+        <div class="inputText inputText_invalid">
+            <div class="inputText__wrap">
+                <input class="inputText__text" type="text" placeholder="Error">
+                <svg class="inputText__icon">
+                    <use href="../../assets/images/sprite.svg#error"></use>
+                </svg>                               
+            </div>                  
+        </div>
     </body>
 </html>
