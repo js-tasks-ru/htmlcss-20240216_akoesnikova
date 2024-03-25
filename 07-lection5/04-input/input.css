@@ -22,6 +22,7 @@
 .inputText__text:focus {
     border: 0;
     outline-color: #4263EB;
+    transition: all 0.2s ease-in;
 }
 
 .inputText_success .inputText__text::placeholder {
