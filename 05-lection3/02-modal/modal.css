@@ -16,6 +16,16 @@
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 40px 40px 47px;
+    animation: move 0.3s linear;
+}
+
+@keyframes move {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .modal__title {
